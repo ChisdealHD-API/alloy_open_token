@@ -37,7 +37,7 @@ module.exports = {
                 "domain": config.mainAPI,
                 "escrow": true,
                 "escrows": 0,
-                "lastGood": 49994100, //genesisblock
+                "lastGood": 63689000, //genesisblock
                 "marketingRate": 0,
                 "self": [config.leader],
                 "wins": 0,
