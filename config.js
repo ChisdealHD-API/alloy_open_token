@@ -1,14 +1,14 @@
 require('dotenv').config();
 const ENV = process.env;
 
-const username = ENV.account || 'disregardfiat';
+const username = ENV.account || 'alloyxuast';
 const active = ENV.active || '';
-const follow = ENV.follow || 'disregardfiat';
+const follow = ENV.follow || 'alloyxuast';
 const msowner = ENV.msowner || '';
 const mspublic = ENV.mspublic || '';
 const memoKey = ENV.memo || '';
 const hookurl = ENV.discordwebhook || '';
-const NODEDOMAIN = ENV.domain || 'http://dlux-token.herokuapp.com' //where your API lives
+const NODEDOMAIN = ENV.domain || 'http://alloy-token.alloyxuast.tk' //where your API lives
 const acm = ENV.account_creator || false //account creation market ... use your accounts HP to claim account tokens
 const mirror = ENV.mirror || false //makes identical posts, votes and IPFS pins as the leader account
 const port = ENV.PORT || 3001;
@@ -67,7 +67,7 @@ const mainRender = 'alloydata.alloyxuast.tk' //data and render server
 const mainFE = 'token.alloyxuast.tk' //frontend for content
 const mainIPFS = 'a.ipfs.dlux.io' //IPFS service
 const mainICO = '' //Account collecting ICO HIVE
-const footer = `\n[Find us on Discord](https://discord.gg/Beeb38j)`
+const footer = `\n[Find us on Discord](https://discord.gg/RYscPHc)`
 const hive_service_fee = 100 //HIVE service fee for transactions in Hive/HBD in centipercents (1% = 100)
 const features = {
     pob: true, //proof of brain
